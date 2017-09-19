@@ -7,6 +7,11 @@ $('#colorPicker').change(function() {
   let color = $(this).val();
 });
 
+$('#sizePicker').submit(function() {
+  const height = $('#input_height').val();
+  const width = $('input_width').val();
+});
+
 function makeGrid() {
 
 // Your code goes here!
